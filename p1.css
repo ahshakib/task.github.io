@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url('bg_img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: auto;
+    width: 100vw;
+}
+header{
+    background-color: rgba(200, 196, 196, 0.055);
+    height: 100px;
+    box-shadow: -4px -2px 16px 0px #0000007a;
+}
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    float: left;
+}
+.logo img {
+    width: 80px;
+    height: 63px;
+    border-radius: 50%;
+}
+nav {
+    float: left;
+    position: absolute;
+    left: 150px;
+    top: 37px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 20px;
+    color: rgba(224, 219, 219, 0.972);
+    transition: all 0.3s;
+}
+li a:hover{
+    background-color: rgba(189, 181, 181, 0.137);
+    border-radius: 10px;
+}
+.head{
+    height: 100px;
+    width: 60%;
+    text-align: center;
+    font-size: 36px;
+    margin: 12px auto;
+    margin-top: 30px;
+}
+.head h1{
+    font-family: 'Pacifico', cursive;
+    color: rgb(206, 172, 172);
+}
+.para{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.para p{
+    font-family: 'Sriracha', cursive;
+    color: white;
+}
+#heading{
+    margin: 50px;
+}
+#heading h1{
+    text-align: center;
+    color: white;
+    text-shadow: 9px 12px 3px #000000;
+    margin-bottom: 16px;
+    font-size: 2.5rem;
+}
+#heading hr{
+    width: 100px;
+    margin: auto;
+    border: 8px dotted white;
+    border-bottom: none;
+}
+.gallery{
+    width: 50%;
+    height: 700px;
+    margin: 20px auto;
+}
+.img-gallery{
+    width: 200px;
+    height: 300px;
+    margin: 10px 13px;
+    background-color: white;
+    float: left;
+    border-radius: 5px;
+    transition: all 1s;
+}
+.img-gallery:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 2px 6px 1px #aea3a3;
+    cursor: pointer;
+}
+.img-gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 12px;
+    text-align: center;
+}
+.desc p{
+    font-weight: bold;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    background-color: rgba(200, 196, 196, 0.055);
+}
+footer p{
+    padding: 12px;
+    color: rgb(206, 194, 194);
+    font-weight: bold;
+    font-size: 15px;
+}

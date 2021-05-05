@@ -1,0 +1,66 @@
+
+section{
+    width: 100vw;
+    margin: 90px 20px;
+}
+.main{
+    margin-bottom: 100px;
+}
+.about-img{
+    width: 300px;
+    margin: 20px auto;
+}
+.about-img img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px dotted white;
+}
+.about-h1{
+    text-align: center;
+    color: white;
+    margin: 20px;
+    margin-top: 50px;
+    font-size: 2rem;
+    font-family: 'Great Vibes', cursive;
+}
+.about-p{
+    width: 300px;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 1.4rem;
+    font-family: 'Antonio', sans-serif;
+}
+.table{
+    overflow-x: auto;
+}
+#edu{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+}
+#edu td, #edu th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+#edu tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#edu tr:nth-child(odd){
+    background-color: #978383;
+}
+  
+#edu tr:hover {
+    background-color: #ddd;
+}
+  
+  #edu th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
